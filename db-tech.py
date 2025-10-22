@@ -3,7 +3,7 @@ import numpy as np
 from scipy.stats import chi2_contingency
 
 # Загрузка Excel
-path = 'data-251019.xlsx                                                                                '
+path = 'data-251019.xlsx'
 df = pd.read_excel(path)
 
 # Исключаем анкеты с ошибками
